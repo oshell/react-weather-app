@@ -1,0 +1,27 @@
+.city-search-input-wrapper {
+  position: relative;
+}
+
+.city-search-input-wrapper ul {
+  margin: -17px 0;
+  padding: 0;
+  list-style: none;
+  border: 1px solid #ccc;
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+  background: #ffffff;
+}
+
+.city-search-input-wrapper ul li{
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.city-search-input-wrapper ul li:hover{
+  background: #fafafa;
+}
+
+.city-search-input-wrapper ul li:not(:last-child){
+  border-bottom: 1px solid #cccccc;
+}
